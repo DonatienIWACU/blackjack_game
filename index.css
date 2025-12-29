@@ -1,0 +1,28 @@
+body {
+    background-image: url("images/table.png");
+    color: white; /* Ensures default text in body is white for readability */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    text-align: center;     
+    background-size:cover;
+    font-weight:bold;
+}
+
+h1 {
+    color: goldenrod;
+} 
+
+#message-el{
+    font-style: italic; 
+} 
+
+button {
+    display: block;          /* forces vertical stacking */
+    margin: 8px auto;        /* centers and adds spacing */
+    width: 150px;
+    background: goldenrod;
+    color: #016f32;
+    padding: 6px 0;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
